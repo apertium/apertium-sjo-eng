@@ -4,6 +4,9 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="post"    c="Postposition"/>
     <sdef n="pr"      c="Preposition"/>
+
+    <sdef n="sent"    c="End of sentence marker"/>
+    <sdef n="cm"      c="Comma"/>
   </sdefs>
   <section id="main" type="standard">
     <!-- SECTION: Postpositions -->
@@ -16,6 +19,11 @@
 
     <e><p><l>ᠮᠣᠷᡳᠨ<s n="n"/></l><r>horse<s n="n"/></r></p></e>
     <e><p><l>ᠰᡝᡪᡝᠨ<s n="n"/></l><r>cart<s n="n"/></r></p></e>
+
+    <!-- SECTION: Punctuation -->
+
+    <e><p><l>᠉<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>᠈<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     
   </section>
   
