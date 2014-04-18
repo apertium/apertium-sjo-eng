@@ -1,0 +1,21 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="post"    c="Postposition"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- SECTION: Postpositions -->
+
+    <e><p><l>ᡳ<s n="post"/></l><r>of<s n="pr"/></r></p></e>
+    <e><p><l>ᡨᡝ<s n="post"/></l><r>to<s n="pr"/></r></p></e>
+    <e><p><l>ᠪᡝ<s n="post"/></l><r></r></p></e>
+
+    <!-- SECTION: Nouns -->
+
+    <e><p><l>ᠮᠣᠷᡳᠨ<s n="n"/></l><r>horse<s n="n"/></r></p></e>
+    <e><p><l>ᠰᡝᡕᡝᠨ<s n="n"/></l><r>cart<s n="n"/></r></p></e>
+    
+  </section>
+  
+</dictionary>
