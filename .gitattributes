@@ -6,6 +6,7 @@
 /NEWS -text
 /README -text
 /apertium-sjo-eng.eng.dix -text
+/apertium-sjo-eng.post-eng.dix -text
 /apertium-sjo-eng.sjo-eng.dix -text
 /apertium-sjo-eng.sjo-eng.lrx -text
 /apertium-sjo-eng.sjo-eng.t1x -text

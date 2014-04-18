@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="post"    c="Postposition"/>
+    <sdef n="pr"      c="Preposition"/>
   </sdefs>
   <section id="main" type="standard">
     <!-- SECTION: Postpositions -->
@@ -14,7 +15,7 @@
     <!-- SECTION: Nouns -->
 
     <e><p><l>ᠮᠣᠷᡳᠨ<s n="n"/></l><r>horse<s n="n"/></r></p></e>
-    <e><p><l>ᠰᡝᡕᡝᠨ<s n="n"/></l><r>cart<s n="n"/></r></p></e>
+    <e><p><l>ᠰᡝᡪᡝᠨ<s n="n"/></l><r>cart<s n="n"/></r></p></e>
     
   </section>
   

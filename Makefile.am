@@ -14,8 +14,10 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	$(PREFIX1).automorf.bin $(PREFIX1).autogen.bin $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
 	$(PREFIX2).automorf.bin $(PREFIX1).autopgen.bin \
 	$(PREFIX1).autolex.bin \
-        $(PREFIX1).rlx.bin $(PREFIX2).rlx.bin
+        $(PREFIX1).rlx.bin 
 
+
+#$(PREFIX2).rlx.bin
 # $(PREFIX1).autopgen.bin
 # $(PREFIX2).autolex.bin
 # $(PREFIX2).autogen.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin
@@ -76,12 +78,12 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 ## Prob files for tagger
 ###############################################################################
-
-$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
-	cp $< $@
-
-$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
-	cp $< $@
+#
+#$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
+#	cp $< $@
+#
+#$(PREFIX2).prob: $(AP_LIB2)/$(LANG2).prob
+#	cp $< $@
 
 ###############################################################################
 ## Disambiguation rules
@@ -124,11 +126,11 @@ $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 ## Postgeneration dictionaries
 ###############################################################################
 
-$(PREFIX1).autopgen.bin: $(AP_SRC2)/apertium-$(LANG2).post-$(LANG2).dix
+$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
-#$(PREFIX2).autopgen.bin: $(AP_SRC2)/apertium-$(LANG2).post-$(LANG2).dix
+#$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG2).dix
 #	apertium-validate-dictionary $<
 #	lt-comp lr $< $@
 
@@ -152,7 +154,6 @@ EXTRA_DIST= \
 apertium_sjo_engdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_sjo_eng_DATA=$(TARGETS_COMMON) \
-	$(PREFIX1).prob \
 	$(BASENAME).$(PREFIX1).t1x \
 	$(BASENAME).$(PREFIX1).t2x \
 	$(BASENAME).$(PREFIX1).t3x
