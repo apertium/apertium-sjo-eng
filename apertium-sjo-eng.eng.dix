@@ -40919,6 +40919,7 @@
     <e lm="get hold of"><i>g</i><par n="g/et__vblex"/><p><l><b/>hold<b/>of</l><r><g><b/>hold<b/>of</g></r></p></e>
     <e lm="get into debt"><i>g</i><par n="g/et__vblex"/><p><l><b/>into<b/>debt</l><r><g><b/>into<b/>debt</g></r></p></e>
     <e lm="get dark"><i>g</i><par n="g/et__vblex"/><p><l><b/>dark</l><r><g><b/>dark</g></r></p></e>
+    <e lm="get angry"><i>g</i><par n="g/et__vblex"/><p><l><b/>angry</l><r><g><b/>angry</g></r></p></e>
     <e lm="get upset"><i>g</i><par n="g/et__vblex"/><p><l><b/>upset</l><r><g><b/>upset</g></r></p></e>
     <e lm="get off"><i>g</i><par n="g/et__vblex"/><p><l><b/>off</l><r><g><b/>off</g></r></p></e>
     <e lm="get longer"><i>g</i><par n="g/et__vblex"/><p><l><b/>longer</l><r><g><b/>longer</g></r></p></e>
@@ -41658,7 +41659,7 @@
     <e lm="stress"><i>stress</i><par n="approach__vblex"/></e>
     <e lm="stretch"><i>stretch</i><par n="approach__vblex"/></e>
     <e lm="stretch out"><i>stretch</i><par n="approach__vblex"/><p><l><b/>out</l><r><g><b/>out</g></r></p></e>
-    <e lm="strike"><i>strik</i><par n="liv/e__vblex"/></e>
+    <e lm="strike"><i>str</i><par n="str/ike__vblex"/></e>
     <e lm="strip"><i>strip</i><par n="step__vblex"/></e>
     <e lm="stripe"><i>strip</i><par n="liv/e__vblex"/></e>
     <e lm="stroke"><i>strok</i><par n="liv/e__vblex"/></e>

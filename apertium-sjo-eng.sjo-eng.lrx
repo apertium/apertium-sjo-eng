@@ -1,5 +1,5 @@
 <rules>
   <rule>
-    <match lemma="word1" tags="n.*"><select lemma="word2" tags="n.*"/></match>
+    <match lemma="ᠴᠣᠣᡥᠠ" tags="n"><select lemma="soldier"/></match>
   </rule>
 </rules>
