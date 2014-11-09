@@ -24,6 +24,7 @@
     <sdef n="sint"    c="Synthetic"/>
 
     <sdef n="iv"      c="Intransitive"/>
+    <sdef n="tv"      c="Transitive"/>
     <sdef n="td"      c=""/>
 
     <sdef n="sent"    c="End of sentence marker"/>
@@ -47,6 +48,8 @@
     <e><p><l>ᡞ<s n="prn"/><s n="pers"/><s n="gen"/></l><r>his<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
     <e><p><l>ᠪᡞ<s n="prn"/><s n="pers"/></l><r>I<s n="prn"/></r></p></e>
     <e><p><l>ᠪᡞ<s n="prn"/><s n="pers"/><s n="gen"/></l><r>my<s n="det"/><s n="pos"/><s n="sp"/></r></p></e>
+    <e><p><l>ᠪᡝ<s n="prn"/><s n="pers"/></l><r>we<s n="prn"/></r></p></e>
+    <e><p><l>ᠰᡞ<s n="prn"/><s n="pers"/></l><r>you<s n="prn"/></r></p></e>
 
     <!-- SECTION: Numeral -->
 
@@ -69,6 +72,10 @@
     <e><p><l>ᠰᡠᡣᡩᡠᡪᡝᠨ<s n="n"/></l><r>car<s n="n"/></r></p></e>
     <e><p><l>ᡨᠣᡣᠰᠣ<s n="n"/></l><r>village<s n="n"/></r></p></e>
     <e><p><l>ᡨᡠᠸᠠᡞ<b/>ᠰᡝᡪᡝᠨ<s n="n"/></l><r>train<s n="n"/></r></p></e>
+    <e><p><l>ᠠᠪᡣᠠ<s n="n"/></l><r>heaven<s n="n"/></r></p></e>
+    <e><p><l>ᠠᠮᠠ<s n="n"/></l><r>father<s n="n"/></r></p></e>
+    <e><p><l>ᡤᡠᡵᡠᠨ<s n="n"/></l><r>people<s n="n"/></r></p></e>
+    <e><p><l>ᡠᡵᠰᡝ<s n="n"/></l><r>people<s n="n"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -95,6 +102,8 @@
     <e><p><l>ᡠᡩᠠ<s n="v"/><s n="td"/></l><r>buy<s n="vblex"/></r></p></e>
     <e><p><l>ᠠᠯᠠ<s n="v"/><s n="td"/></l><r>@@<s n="vblex"/></r></p></e>
     <e><p><l>ᠰᡞᡨᠠ<s n="v"/><s n="td"/></l><r>@@<s n="vblex"/></r></p></e>
+    <e><p><l>ᠪᡠ<s n="v"/><s n="tv"/></l><r>give<s n="vblex"/></r></p></e>
+    <e><p><l>ᠠᡵᠠ<s n="v"/><s n="tv"/></l><r>make<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Punctuation -->
