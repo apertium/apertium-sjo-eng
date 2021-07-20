@@ -1,0 +1,14 @@
+[ERAczWs_q2k4#0] ^village<n>$
+[/ERAczWs_q2k4]
+[ETQdG_5oEGX4#0] ^make<vblex><ger1>$
+[/ETQdG_5oEGX4]
+[FGpKQ5ZBgvDM#0] ^@ᡨᡠᠴᡞ\<caus\>\<ger4\><v><td>$
+[/FGpKQ5ZBgvDM]
+[GBK4iW23V8JY#0] ^.<sent>$
+[/GBK4iW23V8JY]
+[QIHvgXeqmKnW#0] ^,<cm>$
+[/QIHvgXeqmKnW]
+[mQnb_5GJh2OR#0] ^get# angry<vblex><ger3>$
+[/mQnb_5GJh2OR]
+[yXKM8ijrzf_U#0] ^official<n>$
+[/yXKM8ijrzf_U]
